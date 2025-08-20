@@ -1,0 +1,13 @@
+train: C:/Users/nares/OneDrive/Desktop/ra/train/images
+val: C:/Users/nares/OneDrive/Desktop/ra/valid/images
+test: C:/Users/nares/OneDrive/Desktop/ra/test/images
+
+nc: 9
+names: ['fish-cage', 'hand-net', 'lobster-cage', 'lobster-cages', 'pipe', 'seaweed', 'tir', 'tire', 'towfish']
+
+roboflow:
+  workspace: mrgsonardetector
+  project: sonar-images-iqidg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mrgsonardetector/sonar-images-iqidg/dataset/1
